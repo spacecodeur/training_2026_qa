@@ -1,0 +1,27 @@
+{
+  "name": "training_2026_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacecodeur/training_2026_qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacecodeur/training_2026_qa/issues"
+  },
+  "homepage": "https://github.com/spacecodeur/training_2026_qa#readme",
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}

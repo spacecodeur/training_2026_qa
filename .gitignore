@@ -1,1 +1,16 @@
 cv.pdf
+
+# Clone de reference de la doc Playwright (non versionne, recreable)
+refs/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Base de donnees du RWA : reecrite a chaque `yarn dev` par le seed,
+# entierement regenerable depuis data/database-seed.json
+cypress-realworld-app/data/database.json

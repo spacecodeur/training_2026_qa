@@ -7,7 +7,12 @@
     "test": "playwright test",
     "test:chromium": "playwright test --project=chromium",
     "test:ui": "playwright test --ui",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -20,8 +25,17 @@
     "url": "https://github.com/spacecodeur/training_2026_qa/issues"
   },
   "homepage": "https://github.com/spacecodeur/training_2026_qa#readme",
+  "engines": {
+    "node": ">=24"
+  },
   "devDependencies": {
     "@playwright/test": "1.62.1",
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.11.0",
+    "prettier": "^3.9.6",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.67.0"
   }
 }

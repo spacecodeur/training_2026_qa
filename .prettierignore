@@ -1,0 +1,6 @@
+# Prettier lit deja .gitignore par defaut (--ignore-path vaut [.gitignore, .prettierignore]).
+# Ce fichier ne liste donc que ce que .gitignore ne couvre pas.
+
+cypress-realworld-app/
+package-lock.json
+*.md
